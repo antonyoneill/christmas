@@ -1,10 +1,12 @@
+using Christmas.Command;
+
 namespace Christmas.Usecase
 {
     public class GetMessageUsecase
     {
-        public string Execute()
+        public string Execute(GetMessageCommand command)
         {
-            return "Hello world!";
+            return $"Hello {command.From}!";
         }
     }
 }

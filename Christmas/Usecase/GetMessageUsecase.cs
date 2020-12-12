@@ -6,7 +6,7 @@ namespace Christmas.Usecase
     {
         public string Execute(GetMessageCommand command)
         {
-            return $"Hello {command.From}!";
+            return $"Hello {command.IncomingMessage.From}!";
         }
     }
 }

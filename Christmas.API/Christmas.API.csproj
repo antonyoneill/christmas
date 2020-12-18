@@ -9,4 +9,8 @@
     <PackageReference Include="Amazon.Lambda.Core" Version="1.1.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Christmas\Christmas.csproj" />
+  </ItemGroup>
+
 </Project>
